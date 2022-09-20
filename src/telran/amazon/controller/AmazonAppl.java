@@ -18,9 +18,9 @@ public class AmazonAppl {
                 arr[i][j] = sc.nextInt();
             }
         }
-        System.out.println(FindClusters(arr));
+        System.out.println(findClusters(arr));
     }
-    public static int FindClusters(int[][] arr){
+    public static int findClusters(int[][] arr){
         int counter = 0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
